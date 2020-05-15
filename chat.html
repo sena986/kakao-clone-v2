@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">10:50</span>
@@ -30,7 +30,7 @@
         <a href="index.html" class="header__back-btn">
           <i class="fas fa-arrow-left"></i>
         </a>
-        <h1 class="header__title">Best Friend</h1>
+        <h1 class="header__title">さくら</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -41,7 +41,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Friday, May 11, 2020
@@ -49,15 +49,25 @@
         <li class="incoming-message message">
           <img src="images/leo1.jpg" alt="" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">어디야?</div>
+            <span class="message__bubble">どこ?</span>
+            <span class="message__author">さくら</span>
           </div>
-          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">あなたのハトに</span>
+          </div>
         </li>
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
+          <img src="images/leo1.jpg" alt="" class="g-avatar message__avatar" />
           <div class="message__content">
-            <div class="message__bubble">InUrheart</div>
+            <span class="message__bubble">ほんま？</span>
+            <span class="message__author">さくら</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">はい！</span>
           </div>
         </li>
       </ul>
